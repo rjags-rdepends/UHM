@@ -409,6 +409,7 @@ for(i in 1:n){
 
     sim1 <- jagsUI::jags(
       data = d.jags,
+      inits = i.jags,
       parameters.to.save = parameters,
       model.file = model.file,
       n.chains = n.chains,
@@ -494,6 +495,7 @@ for(i in 1:n){
 
     sim1 <- jagsUI::jags(
       data = d.jags,
+      inits = i.jags,
       parameters.to.save = parameters,
       model.file = model.file,
       n.chains = n.chains,
@@ -578,6 +580,7 @@ for(i in 1:n){
     d.jags <- list(n = n, y = y, X = X1, Nbeta = Nbeta, z = z, X2 = X2, zeros = rep(0, n), K = K, Nalpha = Nalpha)
     sim1 <- jagsUI::jags(
       data = d.jags,
+      inits = i.jags,
       parameters.to.save = parameters,
       model.file = model.file,
       n.chains = n.chains,
@@ -663,6 +666,7 @@ for(i in 1:n){
     d.jags <- list(n = n, y = y, X = X1, Nbeta = Nbeta, z = z, X2 = X2, zeros = rep(0, n), K = K, Nalpha = Nalpha)
     sim1 <- jagsUI::jags(
       data = d.jags,
+      inits = i.jags,
       parameters.to.save = parameters,
       model.file = model.file,
       n.chains = n.chains,
@@ -748,6 +752,7 @@ for(i in 1:n){
     d.jags <- list(n = n, y = y, X = X1, Nbeta = Nbeta, z = z, X2 = X2, zeros = rep(0, n), K = K, Nalpha = Nalpha)
     sim1 <- jagsUI::jags(
       data = d.jags,
+      inits = i.jags,
       parameters.to.save = parameters,
       model.file = model.file,
       n.chains = n.chains,
@@ -815,6 +820,7 @@ for(i in 1:n){
     d.jags <- list(n = n, y = y, X = X1, Nbeta = Nbeta, z = z, X2 = X2, Nalpha = Nalpha, zeros = rep(0, n), K = K)
     sim1 <- jagsUI::jags(
       data = d.jags,
+      inits = i.jags,
       parameters.to.save = parameters,
       model.file = model.file,
       n.chains = n.chains,
@@ -900,6 +906,7 @@ for(i in 1:n){
     d.jags <- list(n = n, y = y, X = X1, Nbeta = Nbeta, z = z, X2 = X2, Nalpha = Nalpha, zeros = rep(0, n), K = K)
     sim1 <- jagsUI::jags(
       data = d.jags,
+      inits = i.jags,
       parameters.to.save = parameters,
       model.file = model.file,
       n.chains = n.chains,
@@ -962,6 +969,7 @@ for(i in 1:n){
     d.jags <- list(n = n, y = y, X = X1, Nbeta = Nbeta, z = z, X2 = X2, Nalpha = Nalpha, zeros = rep(0, n), K = K)
     sim1 <- jagsUI::jags(
       data = d.jags,
+      inits = i.jags,
       parameters.to.save = parameters,
       model.file = model.file,
       n.chains = n.chains,
@@ -1045,6 +1053,7 @@ for(i in 1:n){
     d.jags <- list(n = n, y = y, X = X1, Nbeta = Nbeta, z = z, X2 = X2, Nalpha = Nalpha, zeros = rep(0, n), K = K)
     sim1 <- jagsUI::jags(
       data = d.jags,
+      inits = i.jags,
       parameters.to.save = parameters,
       model.file = model.file,
       n.chains = n.chains,
@@ -1110,6 +1119,7 @@ for(i in 1:n){
     d.jags <- list(n = n, y = y, X = X1, Nbeta = Nbeta, z = z, X2 = X2, Nalpha = Nalpha, zeros = rep(0, n), K = K)
     sim1 <- jagsUI::jags(
       data = d.jags,
+      inits = i.jags,
       parameters.to.save = parameters,
       model.file = model.file,
       n.chains = n.chains,
@@ -1187,6 +1197,7 @@ for(i in 1:n){
 
     sim1 <- jagsUI::jags(
       data = d.jags,
+      inits = i.jags,
       parameters.to.save = parameters,
       model.file = model.file,
       n.chains = n.chains,
@@ -1262,6 +1273,7 @@ for(i in 1:n){
     )
     sim1 <- jagsUI::jags(
       data = d.jags,
+      inits = i.jags,
       parameters.to.save = parameters,
       model.file = model.file,
       n.chains = n.chains,
